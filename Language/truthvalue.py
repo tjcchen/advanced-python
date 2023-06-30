@@ -2,6 +2,7 @@
 # truth value
 # 
 
+
 def main():
     x = []
     y = {}
@@ -11,6 +12,7 @@ def main():
     print(bool(y)) # False
     print(bool(z)) # False
     print(bool(a)) # False
+
 
 if __name__ == "__main__":
     main()
