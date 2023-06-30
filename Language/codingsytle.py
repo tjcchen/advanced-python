@@ -22,8 +22,15 @@ class MyClass():
             print(use_name) # True
 
 
-# long comments, like this one that flow accross sereral lines, are
-# limmited to 72 characters instead of 79 for lines of code.
-cls1 = MyClass()
-cls1.prop1 = "Hello Python"
-cls1.function_name(True)
+# Main Entry Point Function
+def main():
+    # long comments, like this one that flow accross sereral lines, are
+    # limmited to 72 characters instead of 79 for lines of code.
+    cls1 = MyClass()
+    cls1.prop1 = "Hello Python"
+    cls1.function_name(True)
+
+
+# Execute the Main Function
+if __name__ == "__main__":
+    main()
