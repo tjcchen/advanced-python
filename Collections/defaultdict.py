@@ -12,6 +12,7 @@ def main():
 
     # use a dictionary to count each element
     fruitCounter = {}
+    # fruitCounter2 = defaultdict(str) # create default dict with empty string
     # fruitCounter2 = defaultdict(int) # create default value of integer for each key
     fruitCounter2 = defaultdict(lambda: 100) # counter starts with 100
 
