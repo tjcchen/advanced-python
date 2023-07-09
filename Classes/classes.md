@@ -45,3 +45,17 @@
 
 
 Data Modal Chapter: https://docs.python.org/3/reference/datamodel.html
+
+
+
+## Class Comparison Operators
+
+| Comparison Function           | Called When   |
+| ----------------------------- | ------------- |
+| object.\_\_gt_\_(self, other) | self > other  |
+| object.\_\_ge_\_(self, other) | self >= other |
+| object.\_\_lt_\_(self, other) | self < other  |
+| object.\_\_le_\_(self, other) | self <= other |
+| object.\_\_eq_\_(self, other) | self == other |
+| object.\_\_ne_\_(self, other) | self != other |
+
