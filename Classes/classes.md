@@ -19,3 +19,29 @@
 | object.\_\_delattr\_\_(self)            | del object.attr   |
 | object.\_\_dir\_\_(self)                | dir(object)       |
 
+
+
+## Class Numerical Operators
+
+| Numeric Function                     | Called When    |
+| ------------------------------------ | -------------- |
+| object.\_\_add\_\_(self, other)      | self + other   |
+| object.\_\_sub_\_(self, other)       | self - other   |
+| object.\_\_mul_\_(self, other)       | self * other   |
+| object.\_\_div_\_(self, other)       | self / other   |
+| object.\_\_floordiv_\_(self, other)  | self // other  |
+| object.\_\_pow_\_(self, other)       | self ** other  |
+| object.\_\_and_\_(self, other)       | self & other   |
+| object.\_\_or_\_(self, other)        | self \| other  |
+| object.\_\_iadd\_\_(self, other)     | self += other  |
+| object.\_\_isub_\_(self, other)      | self -= other  |
+| object.\_\_imul_\_(self, other)      | self *= other  |
+| object.\_\_itruediv_\_(self, other)  | self /= other  |
+| object.\_\_ifloordiv_\_(self, other) | self //= other |
+| object.\_\_ipow_\_(self, other)      | self **= other |
+| object.\_\_iand_\_(self, other)      | self &= other  |
+| object.\_\_ior_\_(self, other)       | self \|= other |
+
+
+
+Data Modal Chapter: https://docs.python.org/3/reference/datamodel.html
