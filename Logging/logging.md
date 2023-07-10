@@ -36,3 +36,35 @@
 
 logging.basicConfig(level=logging.DEBUG)
 
+
+
+## Customized Logging
+
+``js
+
+basicConfig(
+
+​	format=formatstr,
+
+​	datefmt=date_format_str
+
+)
+
+``
+
+| %(asctime)s   | Human readable date format when the log record was created   |
+| ------------- | ------------------------------------------------------------ |
+| %(filename)s  | File name where the log message originated                   |
+| %(funcName)s  | Function name where the log message originated               |
+| %(levelname)s | String representation of the message level (DEBUG, INFO, etc) |
+| %(levelno)d   | Numeric representation of the message level                  |
+| %(lineno)d    | Source line number where the logging cal was issued (if available) |
+| %(message)s   | The logged message string itself                             |
+| %(module)s    | Module name portion of the filename where the message was logged |
+
+
+
+
+
+
+
