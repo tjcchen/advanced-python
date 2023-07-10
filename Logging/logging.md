@@ -40,17 +40,17 @@ logging.basicConfig(level=logging.DEBUG)
 
 ## Customized Logging
 
-``js
+```js
 
 basicConfig(
 
-​	format=formatstr,
+	format=formatstr,
 
-​	datefmt=date_format_str
+	datefmt=date_format_str
 
 )
 
-``
+```
 
 | %(asctime)s   | Human readable date format when the log record was created   |
 | ------------- | ------------------------------------------------------------ |
